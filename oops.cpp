@@ -68,7 +68,7 @@ public:
         cout << "Interest applied. New balance: " << balance << endl;
     }
 
-    // Overridden display method (Polymorphism)
+   
     void display() override {
         cout << "Savings Account of " << owner << ", Balance: " << balance
              << ", Interest rate: " << interestRate * 100 << "%" << endl;
@@ -112,7 +112,7 @@ int main() {
         double maxLoan = userAccount.calculateMaxLoan();
         cout << "The maximum loan you can get is: " << maxLoan << endl;
 
-        // Take the loan amount from the user (ensure it's within the limit)
+        
         cout << "Enter the loan amount you want to apply for: ";
         cin >> loanAmount;
 
